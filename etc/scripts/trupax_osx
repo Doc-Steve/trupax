@@ -1,0 +1,5 @@
+#!/bin/bash
+TRUPAXDIR=`dirname "$0"`
+JAVA_HOME="$TRUPAXDIR/jre/Contents/Home"
+export JAVA_HOME
+exec -a trupax "$JAVA_HOME/bin/java" -d64 -XstartOnFirstThread -cp "$TRUPAXDIR/trupax.jar" coderslagoon.trupax.exe.CmdLn "$@"

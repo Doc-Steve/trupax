@@ -1,0 +1,5 @@
+#!/bin/bash
+TRUPAXDIR=`readlink -f $0`
+TRUPAXDIR=`dirname $TRUPAXDIR`
+JAVA_HOME="$TRUPAXDIR/jre"
+exec -a trupax "$JAVA_HOME/bin/java" -cp "$TRUPAXDIR/trupax.jar" coderslagoon.trupax.exe.CmdLn "$@"
