@@ -51,8 +51,8 @@ run them as JUnit tests. The whole set of tests should then execute, a full test
 run usually takes a few minutes, hence some patience is required.
 
 The test cases can also leverage a third party UDF validation tool, called
-udf_test, which can be obtained by Phillips. You need to download this tool
-yourself, due to licensing it cannot be included in the code base. The udf_test
+*udf_test*, which can be obtained by Phillips. You need to download this tool
+yourself, due to licensing it cannot be included in the code base. The *udf_test*
 software seems to keep moving around, so it might be tricky to find it. Once
 you acquired it point to the *udf_test* executable via the environment variable
 *udftestpath*. Under Linux for instance you'd set it to something like
